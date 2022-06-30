@@ -32,7 +32,7 @@ class Fasilitas extends CI_Controller
 		$row = $this->Users_model->get_by_id($this->session->userdata['username']);
 		$data = array(	
 			'wa'       => 'Web administrator',
-			'univ'     => 'Universitas Langit Inspirasi',
+			'univ'     => 'Universitas Dharma AUB Surakarta',
 			'username' => $row->username,
 			'email'    => $row->email,
 			'level'    => $row->level,
@@ -77,7 +77,7 @@ class Fasilitas extends CI_Controller
 		$rowAdm = $this->Users_model->get_by_id($this->session->userdata['username']);
 		$dataAdm = array(	
 				'wa'       => 'Web administrator',
-				'univ'     => 'Universitas Langit Inspirasi',
+				'univ'     => 'Universitas Dharma AUB Surakarta',
 				'back'     => site_url('fasilitas'),
 				'username' => $rowAdm->username,
 				'email'    => $rowAdm->email,
@@ -138,7 +138,7 @@ class Fasilitas extends CI_Controller
 		$rowAdm = $this->Users_model->get_by_id($this->session->userdata['username']);
 		$dataAdm = array(	
 				'wa'       => 'Web administrator',
-				'univ'     => 'Universitas Langit Inspirasi',
+				'univ'     => 'Universitas Dharma AUB Surakarta',
 				'back'   => site_url('informasi'),
 				'username' => $rowAdm->username,
 				'email'    => $rowAdm->email,

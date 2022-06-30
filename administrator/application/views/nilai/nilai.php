@@ -16,7 +16,7 @@ $id_thn_akad     = $krs->id_thn_akad; // Mengambil data id_thn_akad
 ?>
 <section class="content-header">
       <h1>
-        Universitas Langit Inspirasi
+        Universitas Dharma AUB Surakarta
         <small>code your life with your style</small>
       </h1>
       <ol class="breadcrumb">

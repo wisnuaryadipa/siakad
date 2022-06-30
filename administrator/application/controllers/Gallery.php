@@ -34,7 +34,7 @@ class Gallery extends CI_Controller
 		$rowAdm = $this->Users_model->get_by_id($this->session->userdata['username']);
 		$dataAdm = array(	
 			'wa'       => 'Web administrator',
-			'univ'     => 'Universitas Langit Inspirasi',
+			'univ'     => 'Universitas Dharma AUB Surakarta',
 			'username' => $rowAdm->username,
 			'email'    => $rowAdm->email,
 			'level'    => $rowAdm->level,
@@ -82,7 +82,7 @@ class Gallery extends CI_Controller
 		$rowAdm = $this->Users_model->get_by_id($this->session->userdata['username']);
 		$dataAdm = array(	
 			'wa'       => 'Web administrator',
-			'univ'     => 'Universitas Langit Inspirasi',
+			'univ'     => 'Universitas Dharma AUB Surakarta',
 			'username' => $rowAdm->username,
 			'email'    => $rowAdm->email,
 			'level'    => $rowAdm->level,
@@ -176,7 +176,7 @@ class Gallery extends CI_Controller
 		$rowAdm = $this->Users_model->get_by_id($this->session->userdata['username']);
 		$dataAdm = array(	
 			'wa'       => 'Web administrator',
-			'univ'     => 'Universitas Langit Inspirasi',
+			'univ'     => 'Universitas Dharma AUB Surakarta',
 			'username' => $rowAdm->username,
 			'email'    => $rowAdm->email,
 			'level'    => $rowAdm->level,

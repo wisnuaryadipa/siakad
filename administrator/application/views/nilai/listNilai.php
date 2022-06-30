@@ -10,7 +10,7 @@ $ci->load->model('Thn_akad_semester_model'); // Memanggil Thn_akad_semester_mode
 ?>
 <section class="content-header">
       <h1>
-        Universitas Langit Inspirasi
+        Universitas Dharma AUB Surakarta
         <small>code your life with your style</small>
       </h1>
       <ol class="breadcrumb">
