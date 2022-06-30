@@ -69,7 +69,7 @@
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="<?php echo base_url('assets/img/user2-160x160.jpg') ?>" class="img-circle" alt="User Image">
+                <img src="<?php echo base_url('s-160x160.jpg') ?>" class="img-circle" alt="User Image">
                 <p>
                   <?php 
 					// Menampilkan nama username
@@ -124,7 +124,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="<?php echo base_url('assets/img/user2-160x160.jpg') ?>" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url('s-160x160.jpg') ?>" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p><?php echo $username; ?></p></p>
